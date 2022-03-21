@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Cube</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div id="container">
+            <header id="header">
+                <div class="cubo_h1">
+                <h1 class="title">Bem-vindo a página do cubo!</h1>
+                </div>
+                <div class="cubo_h2">
+                <h2 class="title">Na página do cubo voce pode alterar as dimensões do cubo usando o menu que fica no canto superior direito<br>(AVISO IMPORTANTE:o cubo pode acabar deixando de ser um cubo)<br> e rotaciona-lo como quiser!</h2>
+                </div>
+                <div id="button-start-container">
+                    <button id="button-start">CLIQUE <br>NO<br> <span id="word-cubo">CUBO</span></button>
+                </div>
+            </header>
+            <div id="sidebar-container">
+                <div id="button-sidebar-container">
+                    <button id="button-sidebar"><span>-------------------------<br>-------------------------<br>-------------------------</span></button>
+                </div>
+            </div>
+            <div id="side-bar">
+                <form id="form-sidebar">
+                    <div class="form-item">
+                    <label>Largura em pixels:</label>
+                    <input id="width" type="number" value="100">
+                    </div>
+                    <div class="form-item">
+                    <label>Altura em pixels:</label>
+                    <input id="height" type="number" value="100">
+                    </div>
+                    <div class="form-item">
+                    <label>Profundidade em pixels:</label>
+                    <input id="depth" type="number" value="100">
+                    </div>
+                </form>
+                <div class="buttons-sidebar">
+                    <button id="apply-button">Aplicar</button>
+                    <button id="back-to-start-button">Voltar início</button>
+                </div>
+            </div>
+            <div id="cube">
+                <div class="side">
+                </div>
+                <div class="side">
+                </div>
+                <div class="side">
+                </div>
+                <div class="side">
+                </div>
+                <div class="side">
+                </div>
+                <div class="side">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
