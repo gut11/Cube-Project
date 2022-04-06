@@ -18,13 +18,13 @@ body{
 
 @keyframes increase_left{
     from{left: 0px;}
-    to{left: 300px;}
+    to{left: 50px;}
 }
 
 
 @keyframes reduce_width{
-    from{width: 25vh; right: 40px;}
-    to{width: 0vh;  right: -20px;}
+    from{width: 164.25px; right: 40px;}
+    to{width: 70px;  right: -120px;}
 }
 
 
