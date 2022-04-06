@@ -59,8 +59,8 @@ function open_close_sidebar(){
    form_sidebar.style = "animation-name: reduce_left;";
    button_sidebar_container.style = "right: calc(164.25px + 75px); transition: 0.7s;";
    }else{
-    side_bar.style = "animation-name: reduce_width; animation-duration: 0.7s; animation-delay:0s;";
-    form_sidebar.style = "animation-name: increase_left; animation duration: 0.7s; animation-delay: 0.0s;";
+    side_bar.style = "animation-name: reduce_width; animation-duration: 0.5s; animation-delay:0s;";
+    form_sidebar.style = "animation-name: increase_left; animation duration: 1.5s; animation-delay: 0s;";
     button_sidebar_container.style = "transition: 1s;";
    }
    cont++;
