@@ -262,7 +262,7 @@ input:focus{
 
 
 .side{
-    cursor:grab;
+    cursor: pointer;
     position: absolute;
     border: 1px solid rgb(129, 156, 87);;
     height: 100%;
